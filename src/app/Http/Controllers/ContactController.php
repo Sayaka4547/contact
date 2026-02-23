@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\Contact;
 use App\Models\Category;
 use App\Http\Requests\ContactRequest;
+use App\Http\Requests\StoreContactRequest;
 
 class ContactController extends Controller
 {
