@@ -1,0 +1,47 @@
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    border-bottom: 1px solid #f2f2f2;
+    background: #ffffff;
+}
+
+.header-utilities {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    height: 40px;
+}
+
+.header__logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #8b7969;
+    text-decoration: none;
+    font-family: "Gelasio", serif;
+    font-size: 30px;
+}
+
+.header-utilities nav {
+    margin-left: auto;
+    width: 18%;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav__button {
+    display: inline-block;
+    width: 80px;
+    border: 1px solid #cbb895;
+    background: #f5f3f0;
+    color: #cbb895;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Gelasio", serif;
+    font-size: 12px;
+    cursor: pointer;
+}
