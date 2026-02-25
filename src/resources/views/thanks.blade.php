@@ -2,12 +2,18 @@
 
 @section('css')
 <link rel="stylesheet" href="{{ asset('css/thanks.css') }}">
+<style>
+  .header { display: none; }
+</style>
 @endsection
 
 @section('content')
-<div class="thanks__content">
-  <div class="thanks__heading">
-    <h2>お問い合わせありがとうございます</h2>
+<div class="container">
+  <div class="background-text">Thank you</div>
+  <div class="content">
+    <p>お問い合わせありがとうございました</p>
+    <a href="/" class="home-button">HOME</a>
   </div>
 </div>
 @endsection
+

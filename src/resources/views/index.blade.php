@@ -19,8 +19,8 @@
       </div>
       <div class="form__group-content">
         <div class="form-row-two">
-          <input type="text" name="first_name" placeholder="例：山田" value="{{ old('first_name') }}" />
-          <input type="text" name="last_name" placeholder="例：太郎" value="{{ old('last_name') }}" />
+          <input type="text" name="last_name" placeholder="例：山田" value="{{ old('last_name') }}" />
+          <input type="text" name="first_name" placeholder="例：太郎" value="{{ old('first_name') }}" />
         </div>
         <div class="form__error">
           @error('first_name')
@@ -82,11 +82,11 @@
       </div>
       <div class="form__group-content">
         <div class="form-tel-group">
-          <input type="tel" name="tel_area" placeholder="090" maxlength="4" value="{{ old('tel_area') }}" />
+          <input type="tel" name="tel_area" placeholder="090" maxlength="5" value="{{ old('tel_area') }}" />
           <span class="tel-separator">-</span>
-          <input type="tel" name="tel_local" placeholder="1234" maxlength="4" value="{{ old('tel_local') }}" />
+          <input type="tel" name="tel_local" placeholder="1234" maxlength="5" value="{{ old('tel_local') }}" />
           <span class="tel-separator">-</span>
-          <input type="tel" name="tel_number" placeholder="5678" maxlength="4" value="{{ old('tel_number') }}" />
+          <input type="tel" name="tel_number" placeholder="5678" maxlength="5" value="{{ old('tel_number') }}" />
         </div>
         <div class="form__error">
           @error('tel_area')
