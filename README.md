@@ -4,7 +4,7 @@
 
 ###Dockerビルド
 
-- 'git clone'
+- 'git clone git@github.com:Sayaka4547/contact.git'
 - 'docker-compose up -d --build'
 
 ###Laravel環境構築
